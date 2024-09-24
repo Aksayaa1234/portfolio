@@ -1,17 +1,19 @@
 import { CssBaseline } from "@mui/material"
 import WebLayout from "./layout/WebLayout"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Profile from "./pages/Profile"
+import Projects from "./pages/Projects"
 
 const App = () => {
     return (
         <>
         <CssBaseline/>
-            <BrowserRouter>
+            <BrowserRouter> 
                 <Routes>
                     <Route element={<WebLayout/>}>
-                        <Route path="/" element={<></>} />
-                        {/* <Route path="/projects" element={<Projects />} />
-                        <Route path="/contact" element={<Contact />} /> */}
+                        <Route path="/" element={<Profile/>} />
+                        <Route path="/projects" element={<Projects/>} />
+                        <Route path="/contact" element={<></>} />
                     </Route>
                 </Routes>
 
