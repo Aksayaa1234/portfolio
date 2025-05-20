@@ -1,0 +1,40 @@
+/* .photo_back1{
+width: 650px;
+height: 460px;
+position: absolute;
+border-radius:50% 50%;
+background-image: linear-gradient(to left,var(--color-blue),var(--color-back));
+rotate: 25deg;
+translate: -150px -150px;
+} */
+
+.photo_back1{
+    margin-top: 50px;
+    width:300px;
+    height: 140px;
+    position: absolute;
+    border-radius: 50%;
+    /* border: 5px solid var(--color-back); */
+    background-image: linear-gradient(to left,var(--color-blue),var(--color-back));
+    rotate: 40deg;
+    z-index: 1;
+}
+.photo_back2{
+    margin-top: 110px;
+    width:300px;
+    height: 140px;
+    position: absolute;
+    border-radius: 50%;
+    /* border: 5px solid var(--color-back); */
+    background-image: linear-gradient(to left,var(--color-blue),var(--color-back));
+    rotate: 8deg;
+    translate: -30px 0px;
+    /* box-shadow: 0px 10px 10px gray; */
+    
+}
+span{
+    font-weight:700;
+}
+h1,span{
+    color: var(--color-back);
+}

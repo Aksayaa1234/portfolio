@@ -1,0 +1,31 @@
+.home_section1, .home_section2 {
+  height: 100vh;
+}
+
+.type{
+    width:20ch;
+    font-family: monospace;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite alternate-reverse;
+}
+
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
+}
+
+.btn-outline-custom {
+  color: var(--color-back);
+  font-weight: 500;
+  border: 1.5px solid var(--color-back);
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--color-back);
+  color: white;
+}

@@ -1,0 +1,23 @@
+:root {
+  --color-light: #DED9D9;
+  --color-blue:#56c1a7;
+  --color-dark:#2b3c3a;
+  --color-back:#226b59;
+}
+
+.nav-link{
+    scale:1
+}
+.nav-link:hover{
+    scale: 1.2;
+}
+
+.home__social-icon i{
+  color: var(--color-light);
+  font-size: 1.8rem;
+  scale:1;
+}
+
+.home__social-icon:hover {
+  scale:1.2;
+}
