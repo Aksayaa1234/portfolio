@@ -35,6 +35,10 @@ translate: -150px -150px;
 span{
     font-weight:700;
 }
-h1,span{
+.head,span{
     color: var(--color-back);
+}
+.head{
+    /* box-shadow: 3px 3px 5px gray; */
+    text-shadow:1px 1px 3px rgb(145, 141, 141);
 }

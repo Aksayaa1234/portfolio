@@ -1,0 +1,54 @@
+.progress-bar{
+    width:0;
+    animation: growBar 2s ease-in-out forwards;
+    background-color: var(--color-blue);
+    position: relative;
+    overflow: visible;
+}
+
+@keyframes growBar{
+    to{
+        width: var(--level);
+    }
+}
+
+.progress{
+    margin-top: 7px;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 3px 3px 8px gray;
+    overflow: visible;
+}
+
+.progress-label{
+    display: inline-block;
+    background-color:var(--color-back);
+    color: white;
+    position: absolute;
+    top: -25px;
+    right:0px;
+    z-index: 3;
+    transform: translateX(50%);
+    font-size:smaller;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.progress-label::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Bottom of the label */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--color-back) transparent transparent transparent;
+}
+/* .line{
+    width: 1px;
+   height: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    right:0;
+} */

@@ -8,7 +8,7 @@ const Home=()=>{
         <div className="row h-100 align-items-center">
           <div className="col-12 col-md-6 py-4 ps-5">
             <h4 >Hi I'm</h4>
-            <h1 >Aksayaa M</h1>
+            <h1 className="head" >Aksayaa M</h1>
             <h3 className="mb-4 type">Web Developer..</h3>
             <a href="/about" className="btn btn-outline-custom me-4" role="button">About Me</a>
             <a href="/contact" className="btn btn-outline-custom" role="button">Contact</a>
@@ -18,7 +18,7 @@ const Home=()=>{
             <img
               src="/girl_laptop.png"
               className="img-fluid"
-              alt="Profile"
+              alt="A girl with a laptop"
               style={{ width: "75%", maxWidth: "100%" }}
             />
           </div>

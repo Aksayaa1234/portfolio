@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Template from "./pages/Template";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import About from "./pages/About";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Template/>}>
           <Route index element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/skills" element={<Skills/>}/>
         </Route>
       </Routes>
         
