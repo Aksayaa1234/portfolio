@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Pet's Heros",
+        "image": "./pet_img.jpg",
+        "description": "A transformative platform that allows users to report injured pets, connect with volunteers and veterinarians, and streamline adoption.",
+        "category": "Console Project",
+        "technologies": ["Java", "JDBC", "MySQL"]
+    },
+    {
+        "id": 2,
+        "title": "Flavor Finder",
+        "image": "./flavor_img.webp",
+        "description": "Displays a wide variety of recipes with details on ingredients, cuisines, and dietary preferences, allowing users to search and filter easily.",
+        "category": "MERN Project",
+        "technologies": ["React.js", "Express.js", "Node.js", "MongoDB"]
+    }
+]
