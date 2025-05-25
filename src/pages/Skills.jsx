@@ -23,7 +23,7 @@ const Skills = () => {
 
     return (
         <div className="m-4 mt-5 min-vh-100 pt-3">
-            <h1 className="head ms-3 mb-4">Skills</h1>
+            <h1 className="head ms-3 mb-4 text-center">Skills</h1>
             <div className="row h-100">
                 {Object.entries(skills).map(([category, items], index) => (
                     <div key={index} className="col-12 col-lg-4 col-md-6 position-relative">

@@ -2,7 +2,7 @@
 
 const Project=({ title, image, description, category, technologies })=>{
     return (
-        <div className="project-container col-12 col-md-6 col-lg-4 mb-2">
+        <div className="project-container col-12 col-md-6 col-lg-4 mb-4">
             <div className="card rounded shadow">
                 <div className="card-img-container position-relative overflow-hidden">
                     <img className="card-img-top position-relative" src={image} alt={title}/>
@@ -15,11 +15,11 @@ const Project=({ title, image, description, category, technologies })=>{
                     </div>
                 </div>
                 <div className="card-body p-1 px-3 text-center">
-                    <h4 className="text-center mb-2 fw-small">{category}</h4>
-                    <ul className="list-inline mb-1 d-flex justify-content-evenly">
+                    <h5 className="text-center mb-1 ">{category}</h5>
+                    <ul className="list-inline m-0 d-flex justify-content-evenly">
                         {technologies.map((tech, index) => (
-                            <li key={index} className="list-inline-item">
-                                <span className="badge badge-pill m-1">{tech}</span>
+                            <li key={index} className="list-inline-item mb-1">
+                                <span className="badge badge-pill">{tech}</span>
                             </li>
                         ))}
                     </ul>

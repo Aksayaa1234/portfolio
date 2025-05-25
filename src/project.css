@@ -7,7 +7,7 @@
 }
 
 .card-img-top{
-    opacity: 0.60;
+    opacity: 0.65;
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -24,7 +24,7 @@
     color: white;
     transform: translateY(100%);
     opacity: 0;
-    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 1s ease, opacity 1.6s ease;
     z-index: 2;
 }
 
@@ -34,13 +34,13 @@
 }
 
 .card-body{
-    height: 110px;
+    height: 90px;
 }
 
 .badge{
-    background-color: var(--color-back);
-    font-size:13px;
-    padding: 7px;
+    background-color: var(--color-blue);
+    font-size:12px;
+    padding: 6px;
     border-radius: 50px;
 }
 

@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Pet's Heros",
         "image": "./pet_img.jpg",
-        "description": "A transformative platform that allows users to report injured pets, connect with volunteers and veterinarians, and streamline adoption.",
+        "description": "A transformative platform that allows users to report injured pets, connect with volunteers and veterinarians, and streamline adoption. It ensures efficient management of pet rescue, care, and adoption life cycle",
         "category": "Console Project",
         "technologies": ["Java", "JDBC", "MySQL"]
     },
@@ -14,5 +14,45 @@
         "description": "Displays a wide variety of recipes with details on ingredients, cuisines, and dietary preferences, allowing users to search and filter easily.",
         "category": "MERN Project",
         "technologies": ["React.js", "Express.js", "Node.js", "MongoDB"]
+    },
+    {
+        "id": 3,
+        "title": "E-commerce API",
+        "image": "./ecommerce_img.webp",
+        "description": "It offers secure JWT-based authentication, product browsing, cart and purchase management. Admins can perform CRUD operations on products, manage users, and monitor payments for a streamlined and secure experience.",
+        "category": "Backend Project",
+        "technologies": ["Express.js", "Node.js", "MongoDB"]
+    },
+    {
+        "id": 4,
+        "title": "Sweet Tooth",
+        "image": "./game_img.jpg",
+        "description": "A fast-paced game where you catch candy and cake while dodging fiery chillies using keyboard controls. Built with plain HTML, CSS, and JavaScript for a fun and responsive gameplay experience.",
+        "category": "frontend Project",
+        "technologies": ["HTML", "CSS", "Javascript"]
+    },
+    {
+        "id": 5,
+        "title": "Notes React",
+        "image": "./notes_img.jpg",
+        "description": "A React-based notes app built using MUI for a clean UI. Notes are stored in local storage with timestamps for easy organization.",
+        "category": "frontend Project",
+        "technologies": ["React.js","MUI", "Local Storage"]
+    },
+    {
+        "id": 6,
+        "title": "Hospital Management",
+        "image": "./hospital_img.jpg",
+        "description": "It  streamlines healthcare tasks by allowing admins to manage doctors, users to book appointments, and doctors to track their schedules efficiently.",
+        "category": "Console Project",
+        "technologies": ["Java", "JDBC", "MySQL"]
+    },
+    {
+        "id": 7,
+        "title": "Notes Valut",
+        "image": "./notes_img.jpg",
+        "description": "A sleek and user-friendly note-taking app that stores notes in local storage. Includes timestamps for easy tracking and organization.",
+        "category": "frontend Project",
+        "technologies": ["HTML", "CSS", "Javascript"]
     }
 ]
