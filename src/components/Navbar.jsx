@@ -38,10 +38,18 @@ let currentPath=location.pathname;
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/projects">Projects</a>
+          <a className="nav-link" href="/projects"
+          style={currentPath === '/projects' ? { fontWeight: 'bold', color: 'var(--color-back)' } : {}}
+          >
+            Projects
+          </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/contact">Contact</a>
+          <a className="nav-link" href="/contact"
+          style={currentPath === '/contact' ? { fontWeight: 'bold', color: 'var(--color-back)' } : {}}
+          >
+            Contact
+          </a>
         </li>
       </ul>
       </div>

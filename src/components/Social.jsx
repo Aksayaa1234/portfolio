@@ -2,8 +2,7 @@
 
 const Social=()=>{
     return(
-        <div className="row justify-content-center">
-        <div className="col-12 col-md-5 d-flex justify-content-evenly">
+        <div className="d-flex justify-content-center flex-wrap gap-4">
             <a href="https://www.linkedin.com/in/aksayaa-m/" className="home__social-icon" target="_blank">
                 <i className="bi bi-linkedin"></i>
             </a>
@@ -16,7 +15,6 @@ const Social=()=>{
             <a href="#" className="home__social-icon" target="_blank">
                 <i className="bi bi-instagram"></i>
             </a>
-        </div>
         </div>
     )
 }
