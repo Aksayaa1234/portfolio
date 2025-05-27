@@ -1,5 +1,4 @@
-import Social from "../components/Social";
-import "../home.css"
+
 
 const Home=()=>{
    return(

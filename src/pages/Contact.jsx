@@ -1,5 +1,4 @@
 import Social from "../components/Social";
-import "../contact.css"
 import { useState } from "react"
 
 const Contact=()=>{

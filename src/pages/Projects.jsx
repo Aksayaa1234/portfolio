@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "../project.css"
 import Project from "../components/Project";
 
 const Projects=()=>{
