@@ -1,0 +1,19 @@
+{
+    "Programming Languages": [
+        { "name": "Java", "img": "./skill/java_img.png", "level": 90 ,"width": 70},
+        { "name": "JavaScript", "img": "./skill/javascript_img.png", "level": 75 ,"width": 60},
+        { "name": "C", "img": "./skill/c_img.png", "level": 90 ,"width": 70}
+    ],
+    "Front-end Tech": [
+        { "name": "HTML", "img": "./skill/html_img.png", "level": 95 ,"width": 45},
+        { "name": "CSS", "img": "./skill/css_img.png", "level": 85 ,"width": 45},
+        { "name": "React.js", "img": "./skill/react_img.png", "level": 80 ,"width": 65},
+        { "name": "Bootstrap", "img": "./skill/bootstrap_img.svg", "level": 80 ,"width": 55}
+    ],
+    "Back-end Tech": [
+        { "name": "Node.js", "img": "./skill/node_img.png", "level": 80 ,"width": 70},
+        { "name": "Express.js", "img": "./skill/express_img.png", "level": 90 ,"width": 80},
+        { "name": "MongoDB", "img": "./skill/mongo_img.png", "level": 75 ,"width": 60},
+        { "name": "MySQL", "img": "./skill/mysql_img.png", "level": 90 ,"width": 50}
+    ]
+}

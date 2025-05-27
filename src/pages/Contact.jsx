@@ -16,7 +16,7 @@ const Contact=()=>{
     };
 
     return(
-        <div className="container contact d-flex justify-content-center">
+        <div className="container contact d-flex justify-content-center min-vh-100 align-items-center">
         <div className="row contact-form bg-white rounded mx-3 shadow">
             <div className="col-12 col-md-6 p-4 pb-1 contact-left rounded text-center">
                 <h2 className=" mb-3">Get in Touch</h2>
@@ -32,7 +32,7 @@ const Contact=()=>{
                 <img src="Email.png"  className="img-fluid" alt="email" />
             </div>
             <div className="col-12 col-md-6 p-4">
-                <h2 className="text-center mb-3">📬 Contact Us</h2>
+                <h2 className="text-center mb-3">Contact Us</h2>
                 <form onSubmit={handleSubmit} >
                     <div className="mb-3">
                     <label className="form-label fw-bold mb-2">Name</label>

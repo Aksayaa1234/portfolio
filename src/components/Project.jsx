@@ -1,8 +1,9 @@
 
 
-const Project=({ title, image, description, category, technologies })=>{
+const Project=({ title, image, description, category, technologies, github })=>{
     return (
         <div className="project-container col-12 col-md-6 col-lg-4 mb-4">
+            <a href={github} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark">
             <div className="card rounded shadow">
                 <div className="card-img-container position-relative overflow-hidden">
                     <img className="card-img-top position-relative" src={image} alt={title}/>
@@ -10,7 +11,7 @@ const Project=({ title, image, description, category, technologies })=>{
                             <h3 className="project-title">{title}</h3>
                     </div>
                     <div className="card-img-overlay content-container p-2 position-absolute">
-                        <h6 className="content mb-0">{title}</h6>
+                        <h5 className="content mb-0">{title}</h5>
                         <p className="content">{description}</p>
                     </div>
                 </div>
@@ -25,6 +26,7 @@ const Project=({ title, image, description, category, technologies })=>{
                     </ul>
                 </div>
             </div>
+            </a>
         </div>
     )
 }
