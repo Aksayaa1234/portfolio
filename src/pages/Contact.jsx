@@ -18,8 +18,9 @@ const Contact=()=>{
         process.env.REACT_APP_PUBLIC_KEY       
         ).then(() => {
             alert("Message sent! ✅");
-            setForm({ name: "", email: "", message: "" });
+            setForm({ name: "", email: "", message: "" }); 
         }).catch((error) => {
+            console.error("FAILED...", error);
             alert("Message failed to send ❌");
         });
     };
