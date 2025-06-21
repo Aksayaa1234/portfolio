@@ -1,5 +1,6 @@
 import Social from "../components/Social";
 import { useState } from "react"
+import emailjs from '@emailjs/browser';
 
 const Contact=()=>{
     const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -10,8 +11,17 @@ const Contact=()=>{
 
     const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Message sent! ✅");
-    setForm({ name: "", email: "", message: "" });
+    emailjs.send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form,
+        process.env.REACT_APP_PUBLIC_KEY       
+        ).then(() => {
+            alert("Message sent! ✅");
+            setForm({ name: "", email: "", message: "" });
+        }).catch((error) => {
+            alert("Message failed to send ❌");
+        });
     };
 
     return(
@@ -31,7 +41,7 @@ const Contact=()=>{
                 <img src="Email.png"  className="img-fluid" alt="email" />
             </div>
             <div className="col-12 col-md-6 p-4">
-                <h2 className="text-center mb-3">Contact Us</h2>
+                <h2 className="text-center mb-3">Contact Me</h2>
                 <form onSubmit={handleSubmit} >
                     <div className="mb-3">
                     <label className="form-label fw-bold mb-2">Name</label>
