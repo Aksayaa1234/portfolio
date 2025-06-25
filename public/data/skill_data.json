@@ -2,7 +2,8 @@
     "Programming Languages": [
         { "name": "Java", "img": "./skill/java_img.png", "level": 90 ,"width": 70},
         { "name": "JavaScript", "img": "./skill/javascript_img.png", "level": 75 ,"width": 60},
-        { "name": "C", "img": "./skill/c_img.png", "level": 90 ,"width": 70}
+        { "name": "C", "img": "./skill/c_img.png", "level": 90 ,"width": 70},
+        { "name": "Python", "img": "./skill/python_img.png", "level": 70 ,"width": 65}
     ],
     "Front-end Tech": [
         { "name": "HTML", "img": "./skill/html_img.png", "level": 95 ,"width": 45},
